@@ -9,7 +9,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SettingsComponent } from './settings/settings.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import {NgApexchartsModule} from "ng-apexcharts";
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import {NgOptimizedImage} from "@angular/common";
 
@@ -27,7 +26,6 @@ import {NgOptimizedImage} from "@angular/common";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgApexchartsModule,
     NgOptimizedImage
   ],
   providers: [],
